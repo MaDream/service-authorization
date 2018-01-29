@@ -6,6 +6,9 @@ security:
     resource:
       filter-order: 3
 
+crowd:
+  bearer: baeac7f1-eb10-4ba7-b3a3-c0337cf0941d
+
 spring:
   cloud:
     consul:

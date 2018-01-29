@@ -38,6 +38,7 @@ project.ext {
 
 repositories {
     mavenCentral()
+    jcenter()
 
     if (!releaseMode) {
         maven { url "https://jitpack.io" }
@@ -61,6 +62,9 @@ dependencies {
         compile('com.github.reportportal:commons-dao:4.0.2')
         compile 'com.github.reportportal:commons-rules:4.0.0'
     }
+
+    //compile 'com.atlassian.crowd:crowd-core:1000.25.0'
+    compile 'com.atlassian.crowd:crowd-core:2.8.3'
 
     compile 'javax.inject:javax.inject:1'
     compile('org.hibernate:hibernate-validator')
